@@ -32,6 +32,11 @@ public class MyMath {
         }
     }
 
+    /**
+     * Berechnet die Fibonacci-Funktion von <code>n</code>.
+     * @param n Die Zahl, von der die Fibonacci-Funktion berechnet werden soll.
+     * @return fib(<code>n</code>)
+     */
     public static int berechneFib(int n) {
         if (n <= 0) {
             return 0;
@@ -44,6 +49,15 @@ public class MyMath {
         }
     }
 
+    /**
+     * Gibt <code>true</code> zurück, falls <code>n</code> gerade ist,
+     * <code>false</code> sonst.  Kann bei großen Werten von <code>n</code>
+     * zu einem Stacküberlauf führen.
+     *
+     * @param n Die zu testende Zahl
+     * @return <code>true</code>, falls <code>n</code> gerade,
+     *      <code>false</code> sonst
+     */
     public static boolean istGerade(int n) {
         if (n == 0)
             return true;
@@ -51,7 +65,16 @@ public class MyMath {
             return istUngerade(n-1);
     }
 
-    private static boolean istUngerade(int n) {
+    /**
+     * Gibt <code>true</code> zurück, falls <code>n</code> ungerade ist,
+     * <code>false</code> sonst.  Kann bei großen Werten von <code>n</code>
+     * zu einem Stacküberlauf führen.
+     *
+     * @param n Die zu testende Zahl
+     * @return <code>true</code>, falls <code>n</code> ungerade,
+     *      <code>false</code> sonst
+     */
+    public static boolean istUngerade(int n) {
         if (n == 0)
             return false;
         else
@@ -59,7 +82,7 @@ public class MyMath {
     }
 
     /**
-     * <code>main</code>-Methode für Aufgabe 4.4.
+     * <code>main</code>-Methode für Aufgabe 4.5.
      *
      * @param args Kommandozeilenargumente
      */
