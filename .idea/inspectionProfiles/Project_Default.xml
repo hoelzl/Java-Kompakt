@@ -4,10 +4,10 @@
     <option name="myLocal" value="false" />
     <inspection_tool class="AbstractBeanReferencesInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="AccessStaticViaInstance" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="AmbiguousFieldAccess" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="AmbiguousFieldAccess" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
-    <inspection_tool class="AmbiguousMethodCall" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="AmbiguousMethodCall" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AndroidDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -86,7 +86,7 @@
     <inspection_tool class="AndroidUnknownAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="Annotator" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="Anonymous2MethodRef" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="AnonymousClassVariableHidesContainingMethodVariable" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="AnonymousClassVariableHidesContainingMethodVariable" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AntDuplicateTargetsInspection" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -141,7 +141,7 @@
     <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="ClassEscapesItsScope" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="ClassEscapesItsScope" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
     <inspection_tool class="ClassInitializerMayBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -270,7 +270,7 @@
     <inspection_tool class="FacesModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="FallthroughInSwitchStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="FieldCanBeLocal" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="FieldHidesSuperclassField" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="FieldHidesSuperclassField" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true">
         <option name="m_ignoreInvisibleFields" value="true" />
       </scope>
@@ -443,7 +443,7 @@
     <inspection_tool class="InfiniteRecursionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="InjectionNotApplicable" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="InjectionValueTypeInspection" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="InnerClassVariableHidesOuterClassVariable" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="InnerClassVariableHidesOuterClassVariable" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true">
         <option name="m_ignoreInvisibleFields" value="true" />
       </scope>
@@ -576,7 +576,7 @@
     <inspection_tool class="LessUnresolvedImport" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LessUnresolvedMixin" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LessUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="LocalVariableHidingMemberVariable" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="LocalVariableHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true">
         <option name="m_ignoreInvisibleFields" value="true" />
         <option name="m_ignoreStaticMethods" value="true" />
@@ -599,16 +599,16 @@
     <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="MavenRedundantGroupId" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MethodNameSameAsClassName" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="MethodOverloadsParentMethod" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="MethodOverloadsParentMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
-    <inspection_tool class="MethodOverridesPackageLocalMethod" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="MethodOverridesPackageLocalMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
-    <inspection_tool class="MethodOverridesPrivateMethod" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="MethodOverridesPrivateMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
-    <inspection_tool class="MethodOverridesStaticMethod" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="MethodOverridesStaticMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
     <inspection_tool class="MimeType" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -858,7 +858,7 @@
     <inspection_tool class="TryWithIdenticalCatches" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TypeCustomizer" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TypeParameterExtendsObject" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="TypeParameterHidesVisibleType" enabled="false" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="TypeParameterHidesVisibleType" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Java Code" level="WARNING" enabled="true" />
     </inspection_tool>
     <inspection_tool class="UNCHECKED_WARNING" enabled="false" level="WARNING" enabled_by_default="false" />

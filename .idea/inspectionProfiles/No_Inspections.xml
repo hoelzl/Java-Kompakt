@@ -108,7 +108,7 @@
       <option name="REPORT_METHODS" value="false" />
       <option name="REPORT_FIELDS" value="true" />
     </inspection_tool>
-    <inspection_tool class="CastToConcreteClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="CastToConcreteClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="CaughtExceptionImmediatelyRethrown" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -136,7 +136,7 @@
     <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="ClassInitializerMayBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="ClassReferencesSubclass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="ClassReferencesSubclass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="CloneCallsSuperClone" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -197,7 +197,7 @@
     <inspection_tool class="CucumberMissedExamples" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CucumberTableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CucumberUndefinedStep" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="DeclareCollectionAsInterface" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="DeclareCollectionAsInterface" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="ignoreLocalVariables" value="false" />
         <option name="ignorePrivateMethodsAndFields" value="false" />
@@ -266,7 +266,7 @@
     <inspection_tool class="FaceletsDetectingInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="FacesModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="FallthroughInSwitchStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="FeatureEnvy" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="FeatureEnvy" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="ignoreTestCases" value="false" />
       </scope>
@@ -443,19 +443,19 @@
     <inspection_tool class="InspectionDescriptionNotFoundInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="InspectionMappingConsistency" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="InspectionUsingGrayColors" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="InstanceVariableOfConcreteClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="InstanceVariableOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
-    <inspection_tool class="InstanceofChain" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="InstanceofChain" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="ignoreInstanceofOnLibraryClasses" value="false" />
       </scope>
       <option name="ignoreInstanceofOnLibraryClasses" value="false" />
     </inspection_tool>
-    <inspection_tool class="InstanceofInterfaces" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="InstanceofInterfaces" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
-    <inspection_tool class="InstanceofThis" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="InstanceofThis" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="InstantiatingObjectToGetClassObject" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -577,14 +577,14 @@
     <inspection_tool class="LessUnresolvedImport" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LessUnresolvedMixin" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LessUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="LocalVariableOfConcreteClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="LocalVariableOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="LoopStatementThatDoesntLoopJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LoopStatementsThatDontLoop" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MVCPathVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MagicConstant" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="MagicNumber" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="MalformedFormatString" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -598,7 +598,7 @@
     <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="MavenRedundantGroupId" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MethodNameSameAsClassName" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="MethodOnlyUsedFromInnerClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="MethodOnlyUsedFromInnerClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="ignoreMethodsAccessedFromAnonymousClass" value="false" />
         <option name="ignoreStaticMethodsFromNonStaticInnerClass" value="false" />
@@ -608,7 +608,7 @@
       <option name="ignoreStaticMethodsFromNonStaticInnerClass" value="false" />
       <option name="onlyReportStaticMethods" value="false" />
     </inspection_tool>
-    <inspection_tool class="MethodReturnOfConcreteClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="MethodReturnOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="MimeType" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -657,7 +657,7 @@
     <inspection_tool class="OneButtonGroup" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="OneWayWebMethod" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="OrredNotEqualExpression" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="OverlyStrongTypeCast" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="OverlyStrongTypeCast" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="ignoreInMatchingInstanceof" value="false" />
       </scope>
@@ -667,7 +667,7 @@
     <inspection_tool class="PagesFileModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="PagesModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="ParameterCanBeLocal" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="ParameterOfConcreteClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="ParameterOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="PathAnnotation" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -696,7 +696,7 @@
     </inspection_tool>
     <inspection_tool class="PointlessBooleanExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PrimitiveArrayArgumentToVariableArgMethod" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="PublicMethodNotExposedInInterface" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="PublicMethodNotExposedInInterface" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="onlyWarnIfContainingClassImplementsAnInterface" value="false" />
         <option name="ignorableAnnotations">
@@ -821,10 +821,10 @@
     <inspection_tool class="SqlResolveInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SqlTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
-    <inspection_tool class="StaticVariableOfConcreteClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="StaticVariableOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false" />
     </inspection_tool>
     <inspection_tool class="StringBufferReplaceableByString" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -870,7 +870,7 @@
     <inspection_tool class="TryFinallyCanBeTryWithResources" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TryWithIdenticalCatches" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TypeCustomizer" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="TypeMayBeWeakened" enabled="false" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WARNING" enabled_by_default="false">
       <scope name="Documentation" level="WARNING" enabled="false">
         <option name="useRighthandTypeAsWeakestTypeInAssignments" value="true" />
         <option name="useParameterizedTypeForCollectionMethods" value="true" />
