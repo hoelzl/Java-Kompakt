@@ -1,0 +1,31 @@
+Musterlösungen zum Buch Java Kompakt
+====================================
+
+Dieses Repository enthält die Musterlösungen der Übungsaufgaben des Buchs
+_Java Kompakt_ von Matthias Hölzl, Allaithy Raed und Martin Wirsing
+(Springer Verlag, ISBN-13: 978-3642285035).
+
+Der Quellcode befindet sich im Verzeichnis `src/`.  Alle Aufgaben sind im
+Paket `info.java_kompakt`; darin sind Unterpakete für die einzelnen Kapitel
+und innerhalb des Kapitels für die jeweiligen Aufgaben.  So befindet sich z.B.
+Übungsaufgabe 3.2 im Paket `info.java_kompakt.kapitel_3.aufgabe_3.2`.
+
+Die Dateien sind mit Javadoc-Kommentaren versehen und enthalten an manchen
+Stellen zusätzliche Kommentare mit Erläuterungen zu den Aufgaben. Die
+Kommentare enthalten Umlaute, alle Dateien sind daher im UTF-8-Encoding
+gespeichert.  Allerdings haben wir versucht, keine Umlaute im Java-Code und
+den Dateinamen zu verwenden, um Probleme beim Transfer der Dateien zwischen
+verschiedenen Betriebssystemen und Java-Entwicklungsumgebungen zu vermeiden.
+
+Die generierte Javadoc-Dokumentation ist im Verzeichnis `doc/` zu finden.
+Um die Sonderzeichen richtig zu verarbeiten, muss Javadoc mit den
+Kommandozeilen-Parametern `-encoding UTF-8 -charset UTF-8 -docencoding UTF-8`
+ausgeführt werden.
+
+Der top-level-Ordner enthält Projektdateien für Eclipse und IntelliJ; Sie
+sollten das Repository bzw. die Zip-Datei also direkt in Ihre bevorzugte
+Entwicklungsumgebung importieren können.  Falls es dabei zu Problemen kommt,
+würden wir uns über eine Mail an autoren@java-kompakt.info freuen.
+
+
+
