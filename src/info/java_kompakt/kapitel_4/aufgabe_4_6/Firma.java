@@ -10,9 +10,9 @@ package info.java_kompakt.kapitel_4.aufgabe_4_6;
 
 /**
  * Daten einer Firma beim Handlsregister.
- * Die Daten sind nach dem Suchformular des Handelsregisters
- * {@link https://www.handelsregister.de/rp_web/mask.do?Typ=e}
- * modeliert.
+ * Die Daten sind nach dem
+ * <a href="https://www.handelsregister.de/rp_web/mask.do?Typ=e">Suchformular
+ * des Handelsregisters</a> modeliert.
  *
  * @author Matthias Hölzl (tc@xantira.com)
  */

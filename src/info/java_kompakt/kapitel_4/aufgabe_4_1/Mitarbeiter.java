@@ -22,7 +22,7 @@ public class Mitarbeiter {
     // Statische Variablen
     ////////////////////////////////////////////////////////////////////
 
-    static int gesamtzahl = 0;
+    private static int gesamtzahl = 0;
 
     ////////////////////////////////////////////////////////////////////
     // Instanzvariablen
@@ -31,19 +31,23 @@ public class Mitarbeiter {
     /**
      * Der Name des Mitarbeiters.
      */
-    String name;
+    private String name;
 
     /**
      * Die Mitarbeiternummer. Sie wird als String gespeichert, um z.B. führende
      * Nullen zu erhalten.
      */
-    String mitarbeiterNr;
+    private String mitarbeiterNr;
 
     /**
      * Das aktuelle Gehalt des Mitarbeiters.
      */
-    double gehalt;
-    Firma firma;
+    private double gehalt;
+
+    /**
+     * Die Firma, bei der der Mitarbeiter angestellt ist.
+     */
+    private Firma firma;
 
     ////////////////////////////////////////////////////////////////////
     // Konstruktor

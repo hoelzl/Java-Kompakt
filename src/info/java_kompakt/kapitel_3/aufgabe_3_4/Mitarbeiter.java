@@ -15,9 +15,9 @@ package info.java_kompakt.kapitel_3.aufgabe_3_4;
  * @author Matthias Hölzl (tc@xantira.com)
  */
 public class Mitarbeiter {
-    String name;
-    String mitarbeiterNr;
-    double gehalt;
+    private String name;
+    private String mitarbeiterNr;
+    private double gehalt;
 
     public void printMitarbeiter() {
         System.out.format("Mitarbeiter: %s (%s), verdient %.2f€\n",

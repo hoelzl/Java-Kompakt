@@ -44,11 +44,11 @@
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Aufgabe_3_1.html" title="class in info.java_kompakt.kapitel_3.aufgabe_3_1"><span class="strong">Prev Class</span></a></li>
-<li><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_3.aufgabe_3_1"><span class="strong">Next Class</span></a></li>
+<li>Prev Class</li>
+<li><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1"><span class="strong">Next Class</span></a></li>
 </ul>
 <ul class="navList">
-<li><a href="../../../../index.html?info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html" target="_top">Frames</a></li>
+<li><a href="../../../../index.html?info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html" target="_top">Frames</a></li>
 <li><a href="Firma.html" target="_top">No Frames</a></li>
 </ul>
 <ul class="navList" id="allclasses_navbar_top">
@@ -87,7 +87,7 @@
 <!-- ========= END OF TOP NAVBAR ========= -->
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle">info.java_kompakt.kapitel_3.aufgabe_3_1</div>
+<div class="subTitle">info.java_kompakt.kapitel_5.aufgabe_5_1</div>
 <h2 title="Class Firma" class="title">Class Firma</h2>
 </div>
 <div class="contentContainer">
@@ -95,7 +95,7 @@
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>info.java_kompakt.kapitel_3.aufgabe_3_1.Firma</li>
+<li>info.java_kompakt.kapitel_5.aufgabe_5_1.Firma</li>
 </ul>
 </li>
 </ul>
@@ -125,7 +125,7 @@ extends java.lang.Object</pre>
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><strong><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html#Firma(java.lang.String, java.lang.String)">Firma</a></strong>(java.lang.String&nbsp;name,
+<td class="colOne"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#Firma(java.lang.String, java.lang.String)">Firma</a></strong>(java.lang.String&nbsp;name,
      java.lang.String&nbsp;branche)</code>
 <div class="block">Konstruktor, der neue <code>Firma</code>-Instanzen erzeugt.</div>
 </td>
@@ -147,26 +147,62 @@ extends java.lang.Object</pre>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html#druckeInfo()">druckeInfo</a></strong>()</code>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#druckeInfo()">druckeInfo</a></strong>()</code>
 <div class="block">Gibt Informationen über die Firma auf der Konsole aus.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html#setBranche(java.lang.String)">setBranche</a></strong>(java.lang.String&nbsp;branche)</code>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#entlasseMitarbeiter(info.java_kompakt.kapitel_5.aufgabe_5_1.Mitarbeiter)">entlasseMitarbeiter</a></strong>(<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&nbsp;m)</code>
+<div class="block">Entlasse Mitarbeiter <code>m</code>, sofern er in der Liste der
+ Mitarbeiter vorkommt.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#getBranche()">getBranche</a></strong>()</code>
+<div class="block">Getter für das Attribut <code>branche</code>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.util.ArrayList&lt;<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#getMitarbeiter()">getMitarbeiter</a></strong>()</code>
+<div class="block">Getter für das Attribut <code>mitarbeiter</code>.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#getName()">getName</a></strong>()</code>
+<div class="block">Getter für das Attribut <code>name</code>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#setBranche(java.lang.String)">setBranche</a></strong>(java.lang.String&nbsp;branche)</code>
 <div class="block">Setter für das Attribut <code>Branche</code></div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html#setMitarbeiter(java.util.ArrayList)">setMitarbeiter</a></strong>(java.util.ArrayList&lt;<a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_3.aufgabe_3_1">Mitarbeiter</a>&gt;&nbsp;mitarbeiter)</code>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#setMitarbeiter(java.util.ArrayList)">setMitarbeiter</a></strong>(java.util.ArrayList&lt;<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&gt;&nbsp;mitarbeiter)</code>
 <div class="block">Setter für das Attribut <code>mitarbeiter</code>.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html#setName(java.lang.String)">setName</a></strong>(java.lang.String&nbsp;name)</code>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#setName(java.lang.String)">setName</a></strong>(java.lang.String&nbsp;name)</code>
 <div class="block">Setter für das Attribut <code>name</code>.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html#stelleMitarbeiterEin(info.java_kompakt.kapitel_5.aufgabe_5_1.Mitarbeiter, java.lang.String, double)">stelleMitarbeiterEin</a></strong>(<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&nbsp;m,
+                    java.lang.String&nbsp;mitarbeiterNr,
+                    double&nbsp;gehalt)</code>
+<div class="block">Stelle Mitarbeiter <code>m</code> ein, sofern sein Attribut
+ <code>firma</code> mit der aktuellen Firma (<code>this</code>)
+ übereinstimmt oder er momentan arbeitslos ist
+ (<code>firma == null</code>).</div>
 </td>
 </tr>
 </table>
@@ -211,6 +247,17 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a name="getName()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getName</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getName()</pre>
+<div class="block">Getter für das Attribut <code>name</code>.</div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>Der Name der Firma</dd></dl>
+</li>
+</ul>
 <a name="setName(java.lang.String)">
 <!--   -->
 </a>
@@ -220,6 +267,17 @@ extends java.lang.Object</pre>
 <pre>public&nbsp;void&nbsp;setName(java.lang.String&nbsp;name)</pre>
 <div class="block">Setter für das Attribut <code>name</code>.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>name</code> - Der neue Name der Firma</dd></dl>
+</li>
+</ul>
+<a name="getBranche()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getBranche</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getBranche()</pre>
+<div class="block">Getter für das Attribut <code>branche</code>.</div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>Die Branche, in der die Firma tätig ist</dd></dl>
 </li>
 </ul>
 <a name="setBranche(java.lang.String)">
@@ -233,13 +291,24 @@ extends java.lang.Object</pre>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>branche</code> - Die neue Branche der Firma</dd></dl>
 </li>
 </ul>
+<a name="getMitarbeiter()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMitarbeiter</h4>
+<pre>public&nbsp;java.util.ArrayList&lt;<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&gt;&nbsp;getMitarbeiter()</pre>
+<div class="block">Getter für das Attribut <code>mitarbeiter</code>.</div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>Die Liste der Mitarbeiter der Firma</dd></dl>
+</li>
+</ul>
 <a name="setMitarbeiter(java.util.ArrayList)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setMitarbeiter</h4>
-<pre>public&nbsp;void&nbsp;setMitarbeiter(java.util.ArrayList&lt;<a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_3.aufgabe_3_1">Mitarbeiter</a>&gt;&nbsp;mitarbeiter)</pre>
+<pre>public&nbsp;void&nbsp;setMitarbeiter(java.util.ArrayList&lt;<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&gt;&nbsp;mitarbeiter)</pre>
 <div class="block">Setter für das Attribut <code>mitarbeiter</code>.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>mitarbeiter</code> - Die neue Liste der Mitarbeiter der Firma</dd></dl>
 </li>
@@ -247,11 +316,42 @@ extends java.lang.Object</pre>
 <a name="druckeInfo()">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>druckeInfo</h4>
 <pre>public&nbsp;void&nbsp;druckeInfo()</pre>
 <div class="block">Gibt Informationen über die Firma auf der Konsole aus.</div>
+</li>
+</ul>
+<a name="stelleMitarbeiterEin(info.java_kompakt.kapitel_5.aufgabe_5_1.Mitarbeiter, java.lang.String, double)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>stelleMitarbeiterEin</h4>
+<pre>public&nbsp;void&nbsp;stelleMitarbeiterEin(<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&nbsp;m,
+                        java.lang.String&nbsp;mitarbeiterNr,
+                        double&nbsp;gehalt)</pre>
+<div class="block">Stelle Mitarbeiter <code>m</code> ein, sofern sein Attribut
+ <code>firma</code> mit der aktuellen Firma (<code>this</code>)
+ übereinstimmt oder er momentan arbeitslos ist
+ (<code>firma == null</code>).  Gibt eine Fehlermeldung aus, wenn
+ <code>firma</code> nicht mit <code>this</code> oder <code>null</code>
+ identisch ist.</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>m</code> - Der neue Mitarbeiter</dd><dd><code>mitarbeiterNr</code> - Die neue Mitarbeiternummer von <code>m</code></dd><dd><code>gehalt</code> - Das Gehalt von <code>m</code></dd></dl>
+</li>
+</ul>
+<a name="entlasseMitarbeiter(info.java_kompakt.kapitel_5.aufgabe_5_1.Mitarbeiter)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>entlasseMitarbeiter</h4>
+<pre>public&nbsp;void&nbsp;entlasseMitarbeiter(<a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1">Mitarbeiter</a>&nbsp;m)</pre>
+<div class="block">Entlasse Mitarbeiter <code>m</code>, sofern er in der Liste der
+ Mitarbeiter vorkommt.  Gibt eine Fehlermeldung aus, wenn das nicht der
+ Fall ist.</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>m</code> - Der zu entlassende Mitarbeiter</dd></dl>
 </li>
 </ul>
 </li>
@@ -279,11 +379,11 @@ extends java.lang.Object</pre>
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Aufgabe_3_1.html" title="class in info.java_kompakt.kapitel_3.aufgabe_3_1"><span class="strong">Prev Class</span></a></li>
-<li><a href="../../../../info/java_kompakt/kapitel_3/aufgabe_3_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_3.aufgabe_3_1"><span class="strong">Next Class</span></a></li>
+<li>Prev Class</li>
+<li><a href="../../../../info/java_kompakt/kapitel_5/aufgabe_5_1/Mitarbeiter.html" title="class in info.java_kompakt.kapitel_5.aufgabe_5_1"><span class="strong">Next Class</span></a></li>
 </ul>
 <ul class="navList">
-<li><a href="../../../../index.html?info/java_kompakt/kapitel_3/aufgabe_3_1/Firma.html" target="_top">Frames</a></li>
+<li><a href="../../../../index.html?info/java_kompakt/kapitel_5/aufgabe_5_1/Firma.html" target="_top">Frames</a></li>
 <li><a href="Firma.html" target="_top">No Frames</a></li>
 </ul>
 <ul class="navList" id="allclasses_navbar_bottom">

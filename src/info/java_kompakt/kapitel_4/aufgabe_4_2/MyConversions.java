@@ -19,7 +19,7 @@ public final class MyConversions {
      * Konvertiert das in Zoll angegebene Argument in Centimeter und gibt das
      * Resultat zurück.
      *
-     * @param zoll
+     * @param zoll Länge in Zoll
      * @return <code>zoll</code> in Centimeter konvertiert
      */
     public static double zollNachCm(double zoll) {

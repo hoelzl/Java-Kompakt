@@ -35,7 +35,7 @@ public class MyMath {
     /**
      * Berechnet die Fibonacci-Funktion von <code>n</code>.
      * @param n Die Zahl, von der die Fibonacci-Funktion berechnet werden soll.
-     * @return fib(<code>n</code>)
+     * @return fib(n)
      */
     public static int berechneFib(int n) {
         if (n <= 0) {

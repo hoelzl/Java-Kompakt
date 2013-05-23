@@ -24,17 +24,17 @@ public class Firma {
     /**
      * Der Name der Firma.
      */
-    String name;
+    private String name;
 
     /**
      * Die Branche, in der die Firma aktiv ist.
      */
-    String branche;
+    private String branche;
 
     /**
      * Alle Mitarbeiter der Firma.
      */
-    ArrayList<Mitarbeiter> mitarbeiter;
+    private ArrayList<Mitarbeiter> mitarbeiter;
 
     ////////////////////////////////////////////////////////////////////
     // Konstruktor

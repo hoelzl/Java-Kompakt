@@ -10,6 +10,19 @@ package info.java_kompakt.kapitel_4.aufgabe_4_6;
 
 /**
  * Eine Klasse, die die Daten zum Erstellen eines Personalausweises bündelt.
+ * <p>Wir definieren diese Klasse mit einem sog. "Fluid Interface" für die
+ * Konstruktion von Instanzen.  Statt einen Konstruktor mit mehreren Argumenten
+ * zu implementieren, verwenden wir den Default-Konstruktor, und definieren
+ * die Setter so, dass sie nicht <code>void</code> sondern <code>this</code>,
+ * also eine Instanz vom Typ <code>PersonalausweisAntrag</code> zurückgeben.
+ * Dadurch können Setter für diejenigen Attribute, die wir setzen wollen,
+ * einfach nacheinander aufgerufen werden: um Attribute <code>a</code> und
+ * <code>b</code> eines Objekts <code>o</code> zu setzen, kann man die
+ * Setter so aufrufen:
+ * <code>o.setA(newA).setB(newB)</code>.  Der Aufruf von <code>setA</code>
+ * gibt ja <code>this</code>, also wieder das Objekt <code>o</code> zurück,
+ * deshalb ändert der Aufruf von <code>setB</code> das Attribut <code>b</code>
+ * von <code>o</code> usw.</p>
  *
  * @author Matthias Hölzl (tc@xantira.com)
  */
@@ -87,6 +100,10 @@ public class PersonalausweisAntrag {
         return this;
     }
 
+    /**
+     * Reiche den Antrag beim Einwohnermeldeamt ein und beginne die Bearbeitung.
+     * Wir geben in diesem Beispiel nur die Daten des Antrags aus.
+     */
     public void reicheEin() {
         System.out.println("Beantrage Personalausweis:");
         System.out.format("  Nummer:       %s\n", ausweisNr);
@@ -96,7 +113,14 @@ public class PersonalausweisAntrag {
         System.out.format("  Wohnort:      %s\n", wohnort);
     }
 
+    /**
+     * <code>main</code>-Methode für Aufgabe 4.6(1).
+     *
+     * @param args Kommandozeilenargumente
+     */
     public static void main(String[] args) {
+        // Hier nutzen wir die "fluid"-Definition der Setter aus, indem wir
+        // die Setter für alle Attribute auf das gleiche Objekt anwenden.
         PersonalausweisAntrag p = new PersonalausweisAntrag()
                 .setAusweisNr("1234567890")
                 .setVorname("Hans")
