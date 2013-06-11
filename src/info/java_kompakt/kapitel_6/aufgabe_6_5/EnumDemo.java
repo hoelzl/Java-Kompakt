@@ -9,8 +9,8 @@
 package info.java_kompakt.kapitel_6.aufgabe_6_5;
 
 /**
- * Die Klasse <code>EnumDemo</code> repräsentiert einen Kurs.
- * Ein Kurs hat einen Namen vom Typ String und ein Id von Typ int
+ * Die Klasse <code>EnumDemo</code> repräsentiert das Arbeiten mit Aufzählungstypen
+ * sie speichert eine Instanzvariable vom Typ Enumeration und initialisiert sie.
  * @author Allaithy Raed (raed@pst.ifi.lmu.de)
  */
 
