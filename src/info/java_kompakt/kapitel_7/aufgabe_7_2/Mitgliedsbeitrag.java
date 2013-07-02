@@ -66,9 +66,9 @@ public class Mitgliedsbeitrag {
         // Ist Gehalt > 48000 dann Mitgliedsbeitrag ist 300
          if(gehalt > 48000){
              System.out.println("Ihr Mitgliedsbeitrag ist 300 Euro/Jahr");
-         } else if(gehalt > 38000){  // Ist Gehalt > 38000 und kleiner gleich als 48.0000 dann Mitgliedsbeitrag ist 200
+         } else if(gehalt > 38000){  // Ist Gehalt > 38000 dann Mitgliedsbeitrag ist 200
              System.out.println("Ihr Mitgliedsbeitrag ist 200 Euro/Jahr");
-         } else if(gehalt > 32000){  // Ist Gehalt > 32000 und kleiner gleich als 38.0000 dann Mitgliedsbeitrag ist 100
+         } else if(gehalt > 32000){  // Ist Gehalt > 32000 dann Mitgliedsbeitrag ist 100
         System.out.println("Ihr Mitgliedsbeitrag ist 100 Euro/Jahr");
     }   else {  // Sonst, also gehalt kleiner als 32.000 dann Mitgliedsbeitrag ist 20
              System.out.println("Ihr Mitgliedsbeitrag ist 20 Euro/Jahr");
@@ -80,15 +80,16 @@ public class Mitgliedsbeitrag {
     /**
      * Die Methode berechneMitgliedsbeitrag2() ist aus berechneMitgliedsbeitrag1() entstanden,
      * in dem wir statt else if Nur if geschrieben haben! Natürlich ist das fehlerhafte Implementation!
-     * Probieren Sie es dann, in dem Sie die Methode
+     * Probieren Sie es dann, in dem Sie die Methode berechneMitgliedsbeitrag2()
+     * in der Main Methode aktivieren, und das Programm erneuet ausführen!
      */
     public void berechneMitgliedsbeitrag2(){
         // Ist Gehalt > 48000 dann Mitgliedsbeitrag ist 300
         if(gehalt > 48000){
             System.out.println("Ihr Mitgliedsbeitrag ist 300 Euro/Jahr");
-        } else if(gehalt > 38000){  // Ist Gehalt > 38000 und kleiner gleich als 48.0000 dann Mitgliedsbeitrag ist 200
+        } else if(gehalt > 38000){  // Ist Gehalt > 38000 dann Mitgliedsbeitrag ist 200
             System.out.println("Ihr Mitgliedsbeitrag ist 200 Euro/Jahr");
-        } else if(gehalt > 32000){  // Ist Gehalt > 32000 und kleiner gleich als 38.0000 dann Mitgliedsbeitrag ist 100
+        } else if(gehalt > 32000){  // Ist Gehalt > 32000 dann Mitgliedsbeitrag ist 100
             System.out.println("Ihr Mitgliedsbeitrag ist 100 Euro/Jahr");
         }   else {  // Sonst, also gehalt kleiner als 32.000 dann Mitgliedsbeitrag ist 20
             System.out.println("Ihr Mitgliedsbeitrag ist 20 Euro/Jahr");
@@ -97,19 +98,33 @@ public class Mitgliedsbeitrag {
 
 
     /**
-     * Die Methode berechneMitgliedsbeitrag entscheidet anhand von dem Wert, der in die Instanzvariable
-     * gehalt gespeichert ist, für eine von mehreren Alternativen. Um eine Alternative von mehreren
-     * zu realisieren brauchen wir in Java die geschachtelte if-else Fallunterescheidungen
+     * Aufgabe 7.2 Teil 2. Lösung
+     *  Die Methode berechneMitgliedsbeitrag3() implementiert die modifizierte Anforderung:
+     *  Ist Gehalt > 48000 dann Mitgliedsbeitrag ist 300
+     *  Ist Gehalt > 38000 und kleiner gleich als 48.0000 dann Mitgliedsbeitrag ist 200
+     *  Ist Gehalt > 32000 und kleiner gleich als 38.0000 dann Mitgliedsbeitrag ist 100
+     *  Ist Gehalt kleiner als 32.000 dann Mitgliedsbeitrag ist 20
+     *
+     * Die Methode benutzt nur  if ohne else.
+     * Probieren Sie es dann, in dem Sie die Methode berechneMitgliedsbeitrag2()
+     * in der Main Methode aktivieren, und das Programm erneuet ausführen!
      */
     public void berechneMitgliedsbeitrag3(){
         // Ist Gehalt > 48000 dann Mitgliedsbeitrag ist 300
         if(gehalt > 48000){
             System.out.println("Ihr Mitgliedsbeitrag ist 300 Euro/Jahr");
-        } else if(gehalt > 38000){  // Ist Gehalt > 38000 und kleiner gleich als 48.0000 dann Mitgliedsbeitrag ist 200
+        }
+        // Ist Gehalt > 38000 und kleiner gleich als 48.0000 dann Mitgliedsbeitrag ist 200
+        if(gehalt > 38000 && gehalt <= 48000){
             System.out.println("Ihr Mitgliedsbeitrag ist 200 Euro/Jahr");
-        } else if(gehalt > 32000){  // Ist Gehalt > 32000 und kleiner gleich als 38.0000 dann Mitgliedsbeitrag ist 100
+        }
+        // Ist Gehalt > 32000 und kleiner gleich als 38.0000 dann Mitgliedsbeitrag ist 100
+        if(gehalt > 32000 && gehalt <= 38000 ){
             System.out.println("Ihr Mitgliedsbeitrag ist 100 Euro/Jahr");
-        }   else {  // Sonst, also gehalt kleiner als 32.000 dann Mitgliedsbeitrag ist 20
+        }
+
+        // Ist Gehalt kleiner oder gleich als 32.000 dann Mitgliedsbeitrag ist 20
+        if(gehalt <= 32000 ) {
             System.out.println("Ihr Mitgliedsbeitrag ist 20 Euro/Jahr");
         }
     }
@@ -118,8 +133,15 @@ public class Mitgliedsbeitrag {
     public static void main(String[] args){
         Mitgliedsbeitrag mitgliedsbeitrag = new Mitgliedsbeitrag();
         mitgliedsbeitrag.readGehalt();
-        mitgliedsbeitrag.berechneMitgliedsbeitrag();
-        mitgliedsbeitrag.berechneMitgliedsbeitrag2();
+
+        /*
+         * Aktivieren Sie eine der folgenden Methode, in dem Sie die Kommentarzeichen // davor entfernen
+         * und das Programm erneut ausführen!
+         */
+
+       // mitgliedsbeitrag.berechneMitgliedsbeitrag();
+       // mitgliedsbeitrag.berechneMitgliedsbeitrag2();
+       // mitgliedsbeitrag.berechneMitgliedsbeitrag3();
 
     }
 
