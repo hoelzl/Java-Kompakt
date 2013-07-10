@@ -35,7 +35,7 @@ public class Notenbewertung {
      * Note 5: für Noten großer 4.5 und kleiner gleich 5.5
      * Note 6: für Noten großer 5.5 und kleiner gleich 6
      * Note 7: Für Noten großer als 6 (Ungültige Angabe!)
-     * @return die Gehaltsstufe
+     * @return die Note als Integer
      */
     private int getNoteAlsInt(double note){
 
